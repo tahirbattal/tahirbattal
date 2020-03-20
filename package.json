@@ -1,0 +1,24 @@
+{
+  "name": "tahirbattal",
+  "version": "1.0.0",
+  "description": "Tahir Battal",
+  "author": "Tahir Battal",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+  "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
+  },
+  
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.5",
+    "firebase": "^7.10.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
